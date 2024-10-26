@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-size: cover;
+  background-color: rgba(180, 89, 89, 0.651);
+}
+main {
+  background-color: antiquewhite;
+}
+footer {
+  background-color: #fafafa;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container-heading,
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-contact-details {
+  display: flex;
+  gap: 50px;
+}
+
+.pb {
+  padding-bottom: 10px;
+}
+
+input {
+  border: none;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+.profile-img {
+  width: 100px;
+  aspect-ratio: 3/4;
+  border: 2px solid black;
+}
+
+/*** table**/
+table {
+  width: 100%;
+}
+
+td,
+th {
+  text-align: center;
+  border: 1px solid black;
+  height: 30px;
+  padding: 5px 5px;
+  text-align: left;
+}
+
+.title {
+  background-color: black;
+  color: antiquewhite;
+}
+.no-border {
+  border: none;
+}
+
+.bgcolor {
+  background-color: grey;
+  color: white;
+}
+
+footer p {
+  padding-bottom: 10px;
+}
+.declaration {
+  font-size: 1.3rem;
+  padding: 10px 0 30px;
+}
+.column {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+}
+/* 
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .profile-img {
+    width: 80px;
+  }
+
+  table {
+    font-size: 0.9rem;
+  }
+}
+
+tr:hover {
+  background-color: #f0f0f0;
+} 
+*/

@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 /* 
+header {
+  background-size: cover;
+  background-color: rgba(180, 89, 89, 0.651);
+}
+main {
+  background-color: rgb(252, 198, 129);
+}
+footer {
+  background-color: rgba(180, 89, 89, 0.651);
+} */
+
 .container {
   display: flex;
   justify-content: space-between;

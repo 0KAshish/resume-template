@@ -3,18 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-header {
-  background-size: cover;
-  background-color: rgba(180, 89, 89, 0.651);
-}
-main {
-  background-color: antiquewhite;
-}
-footer {
-  background-color: #fafafa;
-}
-
+/* 
 .container {
   display: flex;
   justify-content: space-between;
